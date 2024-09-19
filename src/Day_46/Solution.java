@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 class Solution {
     public static void main(String[] args) {
-        Solution s=new Solution();
-        System.out.println(s.findTheLongestSubstring("eleetminicoworoep"));
+        Solution so=new Solution();
+        System.out.println(so.findTheLongestSubstring("eleetminicoworoep"));
     }
     public int findTheLongestSubstring(String s) {
         int[] mapy = new int[32];
