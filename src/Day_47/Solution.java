@@ -5,9 +5,9 @@ import java.util.List;
 
 class Solution {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution s = new Solution();
         List<String> timePoints = Arrays.asList("23:59", "00:00", "12:34", "22:22");
-        int result = solution.findMinDifference(timePoints);
+        int result = s.findMinDifference(timePoints);
         System.out.println("Minimum difference: " + result + " minutes");
     }
     public int findMinDifference(List<String> timePoints) {
