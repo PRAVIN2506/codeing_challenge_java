@@ -9,7 +9,6 @@ class Solution {
         System.out.println(s.dividePlayers(skills));
     }
     public long dividePlayers(int[] skill) {
-        // Step 1: Sort the skill array
         Arrays.sort(skill);
 
         int n = skill.length;
